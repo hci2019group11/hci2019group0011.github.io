@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to HCI 2019 group 11
 
 You can use the [editor on GitHub](https://github.com/hci2019group0011/hci2019group011.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
