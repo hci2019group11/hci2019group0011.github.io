@@ -1,10 +1,8 @@
 ## Welcome to HCI 2019 group 11
 
-You can use the [editor on GitHub](https://github.com/hci2019group0011/hci2019group011.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Thiết kế Website đẹp với UI/UX
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
