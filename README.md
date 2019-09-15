@@ -2,12 +2,12 @@
 
 
 
-### Thiết kế Website đẹp với UI/UX
+### Đồ án môn Giao tiếp người máy năm học 2019
 
 
 
 
-### Áp dụng các công nghệ HTML, CSS, Javascrip để hiện thực trang web
+### Thiết kế website với UI/UX
 
 
 
