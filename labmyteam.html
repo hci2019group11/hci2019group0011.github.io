@@ -1,69 +1,182 @@
-<! DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <title>My Team</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Thực hành tạo layout bằng HTML và CSS cơ bản" />
-        <meta name="author" content="caotrinh" />
-        <meta name="keyword" content="hoc css,css co ban,css layout" />
-        <link type="text/css" rel="stylesheet" href="css/myteam.css" />
-        <link type="text/css" rel="stylesheet" href="normalize.css" />
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <div id="contener">
-            <div id="header">
-                <h1 style="text-align: center">My Team</h1>
-            </div>
-            <!--header-->
-            <div id="anh1">
-                <img width="267px" height="352px" src="img/anhtai.png">
+    <header class=" bg-primary text center py-5 mb4">
+        <div class="container">
+            <h1 font-weight-light text-white style="text-align : center">Human Computer Iteraction 2019 Group 11</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" style="margin-top: 20px">
+                <div class="card border-0 shadow">
+                    <img class="card-img-top" src="/image/trinh.jpg" alt="trinh" width="500" height="350">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member
+
+                        </h5>
+                        <i class='fab fa-facebook' style='font-size:24px; color:deepskyblue' style="text-align: left"></i>
+                        <i class='fab fa-youtube' style='font-size:24px; color: red' style="text-align: right"></i>
+                        <i class='fab fa-instagram' style='font-size:24px;color:red' style="text-align: right"></i>
+                        <div class="card-text text-black-50">Web Developer</div>
+                        <ul>
+                            <li>
+                                <p style="text-align: left">Họ tên : Võ Cao Trịnh</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Mã số sinh viên : 17130256</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Quê quán : Quảng Ngãi</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Năm sinh : 1999</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left"><a href="http://vocaotrinh1999.tk">Link web cá nhân</a></p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="http://vocaotrinh1999.tk" class="btn btn-primary btn-sm">Tới trang web</a>
+                    </div>
+                </div>
 
             </div>
-            <div id="thongtintai">
-                <ol>Họ tên : Bùi Văn Tài</ol>
-                <ol>Năm sinh : 1999</ol>
-                <ol>Quê quán : Đồng Nai</ol>
-                <ol><a href="http://buivantai1999.tk" target="_blank">Web cá nhân</a></ol>
+
+            <div class="col-lg-6" style="margin-top: 20px">
+                <div class="card border-0 shadow">
+                    <img class="card-img-top" src="/image/anhtai.png" alt="tai" width="500" height="350">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member
+
+                        </h5>
+                        <i class='fab fa-facebook' style='font-size:24px; color:deepskyblue' style="text-align: left"></i>
+                        <i class='fab fa-youtube' style='font-size:24px; color: red' style="text-align: right"></i>
+                        <i class='fab fa-instagram' style='font-size:24px;color:red' style="text-align: right"></i>
+                        <div class="card-text text-black-50">Web Developer</div>
+                        <ul>
+                            <li>
+                                <p style="text-align: left">Họ tên : Bùi Văn Tài</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Mã số sinh viên : 17130198</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Quê quán : Đồng Nai</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Ngày sinh : 1999</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left"><a href="http://buivantai1999.tk">Link web cá nhân</a></p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn-sm">Tới trang web</a>
+                    </div>
+                </div>
+
             </div>
-            <div id="anh2">
-                <img width="275px" height="354px" src="img/daotiensy.jpg">
+
+            <div class="col-lg-6" style="margin-top: 20px">
+                <div class="card border-0 shadow">
+                    <img class="card-img-top" src="/image/daotiensy.jpg" alt="sy" width="500" height="350">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member
+
+                        </h5>
+                        <i class='fab fa-facebook' style='font-size:24px; color:deepskyblue' style="text-align: left"></i>
+                        <i class='fab fa-youtube' style='font-size:24px; color: red' style="text-align: right"></i>
+                        <i class='fab fa-instagram' style='font-size:24px;color:red' style="text-align: right"></i>
+                        <div class="card-text text-black-50">Web Developer</div>
+                        <ul>
+                            <li>
+                                <p style="text-align: left">Họ tên : Đào Tiến Sỹ</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Mã số sinh viên : 17130197</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Quê quán : Đồng Nai</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Ngày sinh : 1999</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left"><a href="#">Link web cá nhân</a></p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn-sm">Tới trang web</a>
+                    </div>
+                </div>
+
             </div>
-            <div id="thongtinsy">
-                <ol>Họ tên : Đào Tiến Sỹ</ol>
-                <ol>Năm sinh : 1999</ol>
-                <ol>Quê quán : Đồng Nai</ol>
-                <ol><a href="http://daotiensy15.tk" target="_blank">Web cá nhân</a></ol>
-            </div>
-            <div id="anh3">
-                <img width="267px" height="352px" src="img/viet.jpg">
-            </div>
-            <div id="thongtinviet">
-                <ol>Họ tên : Nguyễn Doãn Hoàng Việt</ol>
-                <ol>Năm sinh : 1999</ol>
-                <ol>Quê quán : Bình Định</ol>
-                <ol><a href="http://hoangvietnd.tk" target="_blank">Web cá nhân</a></ol>
-            </div>
-            <div id="anh4">
-                <img width="275px" height="354px" src="img/trinh.jpg">
-            </div>
-            <div id="thongtintrinh">
-                <ol>Họ tên : Võ Cao Trịnh</ol>
-                <ol>Năm sinh : 1999</ol>
-                <ol>Quê quán : Quảng Ngãi</ol>
-                <ol><a href="http://vocaotrinh1999.tk" target="_blank">Web cá nhân</a></ol>
-            </div>
-            <div id="footer">
-                <h1>Thanks</h1>
-                <h3>Desgin by Cao Trinh</h3>
+
+            <div class="col-lg-6" style="margin-top: 20px">
+                <div class="card border-0 shadow">
+                    <img class="card-img-top" src="/image/viet.jpg" alt="viet" width="500" height="350">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member
+
+                        </h5>
+                        <i class='fab fa-facebook' style='font-size:24px; color:deepskyblue' style="text-align: left"></i>
+                        <i class='fab fa-youtube' style='font-size:24px; color: red' style="text-align: right"></i>
+                        <i class='fab fa-instagram' style='font-size:24px;color:red' style="text-align: right"></i>
+                        <div class="card-text text-black-50">Web Developer</div>
+                        <ul>
+                            <li>
+                                <p style="text-align: left">Họ tên : Nguyễn Doãn Hoàng Việt</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Mã số sinh viên : 17130271</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Quê quán : Bình Định</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left">Ngày sinh : 1999</p>
+                            </li>
+                            <li>
+                                <p style="text-align: left"><a href="#">Link web cá nhân</a></p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary btn-sm">Tới trang web</a>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <!--container-->
+    </div>
+    <footer class="py-5 bg-dark" style="margin-top:30px">
+        <div class="container">
+            <p class="m-0 text-center text-white">Desgin by Cao Trinh</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+</body>
 
-    </body>
-
-    </html>
+</html>
