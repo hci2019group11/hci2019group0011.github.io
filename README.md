@@ -11,5 +11,5 @@
 
 
 
-## Giảng viên : Trần Thị Thanh Nga
+## vì 1 số lý do nên nhóm đã chuyễn sang hci2019grop011.tk. Mong cô thông cảm nhóm xin cảm ơn cô
 
