@@ -9,7 +9,9 @@ body{
 a.navbar-brand{
   background-color: white;
 
-
+}
+.bg-light {
+    background-color: white !important;
 }
 div#navbarSupportedContent{
   width: 100%;
@@ -96,7 +98,7 @@ div#navbarSupportedContent a.nav-link{
 
 }
 .group-tabs a{
-  
+
 }
 .group-tabs a:hover{
   text-decoration: none;
