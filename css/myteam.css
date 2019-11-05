@@ -106,3 +106,11 @@ div#navbarSupportedContent a.nav-link{
 .tab-content td{
   padding: 10px;
 }
+a#week1,a#week2,a#week3,a#week4 {
+    color: #0c5460;
+    font-weight: bold;
+}
+.nav-item a.nav-link.active{
+  background-color: #0c5460;
+  color: white !important;
+}
