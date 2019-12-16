@@ -81,10 +81,10 @@ div#navbarSupportedContent a.nav-link{
   border-radius: 50%;
 }
 .team-member .member-info{
-  background: #0c5460;
+  background: white;
   border-radius: 20px;
   padding: 10px 5px;
-  color: white;
+  color: #0c5460;
 }
 .team-member .member-info i{
   font-size: 20px;
