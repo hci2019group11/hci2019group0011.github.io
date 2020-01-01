@@ -1,0 +1,79 @@
+.blockquote {
+    padding: 40px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 21px;
+    color: #676462;
+    background-color: #f1f4f3;
+}
+
+.blockquote {
+    padding: 40px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 21px;
+    color: #676462;
+    background-color: #f1f4f3;
+}
+
+.blocquote-author {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #302e2e;
+    letter-spacing: 1px;
+}
+
+.widget {
+    margin-bottom: 30px;
+    padding: 10px 20px 2px 30px;
+    border-radius: 5px;
+    background-color: #f4f7f6;
+}
+
+
+/* color */
+
+.circle-default-color {
+    background-color: #64dd17;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.circle-primary-color {
+    background-color: #fb8533;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.circle-heading-color {
+    background-color: #272625;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.circle-secondary-color {
+    background-color: #676462;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.info h4 {
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.info p {
+    opacity: 0.5;
+    margin-left: 50px;
+}
